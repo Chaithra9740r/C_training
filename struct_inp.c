@@ -22,6 +22,13 @@ void main()
         printf("enter year of publication:");
         scanf("%d",&b[i].year);
     }
+    printf("your information: \n");
+    for(int i = 0; i<n; i++)
+    {
+        printf("%s\n", b[i].name);
+        printf("%s\n", b[i].author);
+        printf("%d\n", b[i].year);
+    }
 }
 
 
