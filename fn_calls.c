@@ -13,6 +13,8 @@ void main()
 {
     int a=90;
     int b=88;
+    printf("call by value: \n");
     sum_value(a,b); // call by val
+    printf("call by reference: \n");
     sum_ref(&a,&b); // call by ref
 }
